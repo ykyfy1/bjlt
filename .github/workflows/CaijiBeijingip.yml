@@ -2,8 +2,8 @@ name: CaijiBeijingip
 permissions:
   contents: write
 on:
-  #schedule:
-    #- cron: "01 19 * * *"
+  schedule:
+    - cron: "01 19 * * *"
   workflow_dispatch:
 jobs:
   run-script:
